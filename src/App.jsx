@@ -1,9 +1,12 @@
 import "./app.scss";
 import React from "react";
+import Navbar from "./components/navbar/Navbar";
 
 const App = () => {
   return <div>
-    <section>About me</section>
+    <section>
+      <Navbar />
+    </section>
     <section>Skills</section>
     <section>Experience</section>
     <section>Education</section>
