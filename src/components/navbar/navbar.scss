@@ -1,0 +1,31 @@
+.navbar{
+  height: 200px;
+
+  .wrapper{
+    max-width: 1550px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    //background-color: rgba(247, 231, 247, 0.7);
+    background: linear-gradient(to bottom, rgba(247, 231, 247, 0.7), transparent);
+
+    span{
+      font-weight: bold;
+      font-size: 2em;
+      font-family: 'Brush Script MT', cursive;
+      color: black;
+      text-align: center;
+    }
+
+    .social{
+      display: flex;
+      gap: 15px;
+    
+    img{
+      width: 40px;
+      height: 40px;
+    }
+  }
+  }
+}
