@@ -1,7 +1,7 @@
 import "./navbar.scss";
 import React from 'react'
 import { motion } from 'framer-motion'
-import "./sidebar/Sidebar.jsx";
+import "../sidebar/Sidebar.jsx";
 
 const Navbar = () => {
   return (

@@ -1,6 +1,6 @@
-import Links from "./links/Links";
+import Links from "./links/Links.jsx";
 import "./sidebar.scss";
-import ToggleButton from "./toggleButton/toggleButton";
+import ToggleButton from "./toggleButton/ToggleButton.jsx";
 import {delay, motion} from 'framer-motion';
 import {useState} from 'react';
 
